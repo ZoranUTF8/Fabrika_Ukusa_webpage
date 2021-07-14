@@ -280,6 +280,8 @@ header
 --------------------------------------------- 
 */
 
+
+
 .background-header {
   background-color: #fff;
   height: 80px !important;
@@ -318,12 +320,12 @@ header
 }
 
 .header-area .main-nav {
-  min-height: 80px;
+  min-height: 50px;
   background: transparent;
 }
 
 .header-area .main-nav .logo {
-  line-height: 100px;
+  line-height: 50px;
   color: #fff;
   font-size: 28px;
   font-weight: 700;
@@ -726,6 +728,8 @@ header
   .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
+
+  
 }
 
 @media (min-width: 767px) {

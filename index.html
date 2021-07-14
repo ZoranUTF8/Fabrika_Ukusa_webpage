@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <title>FABRIKA UKUSA</title>
 
     <!-- Additional CSS Files -->
-    
+
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
@@ -24,25 +28,52 @@
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-   
+
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
+            
+                    <nav class="main-nav navbar navbar-expand-md navbar-light bg-light fixed-top ">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            <img class="logo" src="assets/images/fabrikaUkusaLogo.jpg">
+                        <a href=" index.html" class="logo">
+                        <img class="logo" src="assets/images/fabrikaUkusaLogo.jpg">
                         </a>
+                        
                         <!-- ***** Logo End ***** -->
+
                         <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#expandmenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-end" id="expandmenu">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link"  href="#top" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'">Naslovna</a>
+                                <a class="nav-item nav-link" href="#about" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'">O nama</a>
+                                <a class="nav-item nav-link" href="#offers" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'">Meni</a>
+                                <a class="nav-item nav-link" href="#chefs" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'">Glavni kuvar</a>
+                                <a class="nav-item nav-link" href="#reservation" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'">Kontakt</a>
+                            </div>
+                        </div>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+
+
+<!-- OLD MENU -->
+    <!-- ***** Logo End ***** -->
+    <!-- ***** Menu Start ***** -->
+    <!-- <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Naslovna</a></li>
                             <li class="scroll-to-section"><a href="#about">O nama</a></li>
 
@@ -55,19 +86,15 @@
                                     <li><a href="#">Drop Down Page 3</a></li>
                                 </ul>
                             </li> -->
-                       
-                            <li class="scroll-to-section"><a href="#offers">Meni</a></li>
+
+    <!-- <li class="scroll-to-section"><a href="#offers">Meni</a></li>
                             <li class="scroll-to-section"><a href="#chefs">Glavni kuvar</a></li>
                             <li class="scroll-to-section"><a href="#reservation">Kontakt</a></li>
                         </ul>
-                        
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
+                         -->
+    <!-- ***** Menu End ***** -->
+
+
 
     <!-- ***** Main Banner Area Start ***** -->
     <div id="top">
@@ -77,9 +104,9 @@
                     <div class="left-content">
                         <div class="inner-content">
                             <h4>FABRIKA UKUSA</h4>
-                            
+
                             <h6>Ukusno i zdravo</h6>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -87,33 +114,33 @@
                     <div class="main-banner header-text">
                         <div class="Modern-Slider">
                             <!-- Item -->
-                          <div class="item">
-                            <div class="img-fill">
-                                <img  class="slide-images" src="assets/images/slide-04.jpg" alt="">
+                            <div class="item">
+                                <div class="img-fill">
+                                    <img class="slide-images" src="assets/images/slide-04.jpg" alt="">
+                                </div>
                             </div>
-                          </div>
-                          <!-- // Item -->
-                          <!-- Item -->
-                          <div class="item">
-                            <div class="img-fill">
-                                <img  class="slide-images" src="assets/images/slide-01.jpg" alt="">
+                            <!-- // Item -->
+                            <!-- Item -->
+                            <div class="item">
+                                <div class="img-fill">
+                                    <img class="slide-images" src="assets/images/slide-01.jpg" alt="">
+                                </div>
                             </div>
-                          </div>
-                          <!-- // Item -->
-                          <!-- Item -->
-                          <div class="item">
-                            <div class="img-fill">
-                                <img class="slide-images" src="assets/images/slide-02.jpg" alt="">
+                            <!-- // Item -->
+                            <!-- Item -->
+                            <div class="item">
+                                <div class="img-fill">
+                                    <img class="slide-images" src="assets/images/slide-02.jpg" alt="">
+                                </div>
                             </div>
-                          </div>
-                          <!-- // Item -->
-                          <!-- Item -->
-                          <div class="item">
-                            <div class="img-fill">
-                                <img class="slide-images" src="assets/images/ambience.jpg" alt="">
+                            <!-- // Item -->
+                            <!-- Item -->
+                            <div class="item">
+                                <div class="img-fill">
+                                    <img class="slide-images" src="assets/images/ambience.jpg" alt="">
+                                </div>
                             </div>
-                          </div>
-                          <!-- // Item -->
+                            <!-- // Item -->
                         </div>
                     </div>
                 </div>
@@ -132,10 +159,16 @@
                             <h6>O nama</h6>
                             <h2>Ostavljamo vam ukusnu uspomenu</h2>
                         </div>
-                        <p>U modernom ambijentu, u samom srcu Teslića, na mjestu gdje je nekad bila poznate stara gradska kafana, ušuškao se naš restoran „Fabrika ukusa“. Ako vam je potreban predah uz neki od naših napitaka, ili ste gladni, mi smo tu za vas.</p>
-                            
-                            <p>Naš jelovnik je osmišljen sa ciljem da vam uz pristupačne cijene riješi sve nedoumice koje biste mogli imati oko doručka ili ručka. Do 11:00 h imamo poseban jelovnik za doručak , a takođe od <em>07:00h - 15:00h / 18:00h - 23:00h</em> možete naručivati jela sa našeg „a la cart“ jelovnika.
-                            Na jelovniku možete pronaći supe, obrok salate, sendviče, hamburgere i deserte koje svakodnevno, svježe, pripremamo za Vas.</p>
+                        <p>U modernom ambijentu, u samom srcu Teslića, na mjestu gdje je nekad bila poznate stara
+                            gradska kafana, ušuškao se naš restoran „Fabrika ukusa“. Ako vam je potreban predah uz neki
+                            od naših napitaka, ili ste gladni, mi smo tu za vas.</p>
+
+                        <p>Naš jelovnik je osmišljen sa ciljem da vam uz pristupačne cijene riješi sve nedoumice koje
+                            biste mogli imati oko doručka ili ručka. Do 11:00 h imamo poseban jelovnik za doručak , a
+                            takođe od <em>07:00h - 15:00h / 18:00h - 23:00h</em> možete naručivati jela sa našeg „a la
+                            cart“ jelovnika.
+                            Na jelovniku možete pronaći supe, obrok salate, sendviče, hamburgere i deserte koje
+                            svakodnevno, svježe, pripremamo za Vas.</p>
                         <div class="row">
                             <div class="col-4">
                                 <img class="o-nama-slike" src="assets/images/about-thumb-01.jpg" alt="">
@@ -152,7 +185,7 @@
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="right-content">
                         <div class="thumb">
-                            
+
                             <img src="assets/images/openingTimes.jpg" alt="">
                         </div>
                     </div>
@@ -164,7 +197,7 @@
 
     <!-- ***** Menu Area Starts ***** -->
     <!-- Deleted part. Problem with c -->
-   
+
     <!-- ***** Menu Area Ends ***** -->
 
     <!-- ***** Chefs Area Starts ***** -->
@@ -174,7 +207,7 @@
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <div class="section-heading">
                         <h6>Nasi kuvari</h6>
-                        
+
                     </div>
                 </div>
             </div>
@@ -185,33 +218,37 @@
                         <div class="thumb">
                             <div class="overlay"></div>
                             <ul class="social-icons">
-                                <li><a href="https://www.facebook.com/igor.botic.7"><i class="fa fa-facebook"></i></a></li>
-                                
-                                <li><a href="https://www.instagram.com/i.botic/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/igor.botic.7"><i class="fa fa-facebook"></i></a>
+                                </li>
+
+                                <li><a href="https://www.instagram.com/i.botic/"><i class="fa fa-instagram"></i></a>
+                                </li>
                             </ul>
-                            <img  src="assets/images/chefs-01.jpg" alt="Chef #1">
+                            <img src="assets/images/chefs-01.jpg" alt="Chef #1">
                         </div>
                         <div class="down-content">
                             <h4>Igor Botic</h4>
                             <span>Glavni kuvar</span>
                         </div>
-                        
+
                     </div>
-                                  
+
                 </div>
-                
-                <div class="col-lg-6" >
-                    <p id="o-nama-kuvar">Zavrsio srednju školu za kuvare, u mladim godinama već otkrio ljubav i strast prema kulinarstvu..<br>Studirao gastronomiju i hotelski menadžment.<br> Radio 2 godine u hotelima visoke kategorije i 8 godina na brodu u najvećoj recnoj komapaniji <em>Viking</em>.</p>
+
+                <div class="col-lg-6">
+                    <p id="o-nama-kuvar">Zavrsio srednju školu za kuvare, u mladim godinama već otkrio ljubav i strast
+                        prema kulinarstvu..<br>Studirao gastronomiju i hotelski menadžment.<br> Radio 2 godine u
+                        hotelima visoke kategorije i 8 godina na brodu u najvećoj recnoj komapaniji <em>Viking</em>.</p>
                 </div>
- 
-                
-                
+
+
+
             </div>
         </div>
     </section>
     <!-- ***** Chefs Area Ends ***** -->
 
-    
+
 
     <!-- ***** Menu Area Starts ***** -->
     <section class="section" id="offers">
@@ -232,9 +269,11 @@
                                 <div class="row">
                                     <div class="col-lg-6 offset-lg-3">
                                         <ul>
-                                          <li><a href='#tabs-1'><img src="assets/images/tab-icon-01.png" alt="">Doručak</a></li>
-                                          <li><a href='#tabs-2'><img src="assets/images/tab-icon-02.png" alt="">Rucak</a></a></li>
-                                          
+                                            <li><a href='#tabs-1'><img src="assets/images/tab-icon-01.png"
+                                                        alt="">Doručak</a></li>
+                                            <li><a href='#tabs-2'><img src="assets/images/tab-icon-02.png"
+                                                        alt="">Rucak</a></a></li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -251,7 +290,8 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.jpg" alt="">
                                                             <h4>Omlet</h4>
-                                                            <p>Tri jajeta umućena sa mlijekom, salatom, jogurt preliv, pecivom i pavlakom.</p>
+                                                            <p>Tri jajeta umućena sa mlijekom, salatom, jogurt preliv,
+                                                                pecivom i pavlakom.</p>
                                                             <div class="price">
                                                                 <h6>KM3.50</h6>
                                                             </div>
@@ -261,7 +301,8 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.jpg" alt="">
                                                             <h4>Jaja na oko</h4>
-                                                            <p>3 jajeta, sa salatom, jogurt preliv, pecivom i pavlakom.</p>
+                                                            <p>3 jajeta, sa salatom, jogurt preliv, pecivom i pavlakom.
+                                                            </p>
                                                             <div class="price">
                                                                 <h6>KM3.50</h6>
                                                             </div>
@@ -271,7 +312,9 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/Bacon_sandwich.jpg" alt="">
                                                             <h4>Open faced Bacon sandwich</h4>
-                                                            <p>Otvoreni sendvic sa brios kiflom, sirnim namazom, zelenom salatom, paradajzom, hrskavom slaninom, sirom i lukom.</p>
+                                                            <p>Otvoreni sendvic sa brios kiflom, sirnim namazom, zelenom
+                                                                salatom, paradajzom, hrskavom slaninom, sirom i lukom.
+                                                            </p>
                                                             <div class="price">
                                                                 <h6>KM4.80</h6>
                                                             </div>
@@ -287,7 +330,8 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-04.jpg" alt="">
                                                             <h4>Dorucak u panini sendvicu</h4>
-                                                            <p>Omlet sa sirom, sirni namaz, zelena salata i paradajz u pecivu.</p>
+                                                            <p>Omlet sa sirom, sirni namaz, zelena salata i paradajz u
+                                                                pecivu.</p>
                                                             <div class="price">
                                                                 <h6>KM2.80</h6>
                                                             </div>
@@ -297,7 +341,8 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.jpg" alt="">
                                                             <h4>Americke Palacinke</h4>
-                                                            <p>Palacinci na americki nacim, sa prelivom od karamele, cokoladom, malinama, i vocnim sosom.</p>
+                                                            <p>Palacinci na americki nacim, sa prelivom od karamele,
+                                                                cokoladom, malinama, i vocnim sosom.</p>
                                                             <div class="price">
                                                                 <h6>KM3.00</h6>
                                                             </div>
@@ -307,7 +352,8 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/musli.jpg" alt="">
                                                             <h4>Musli Fabrika ukusa </h4>
-                                                            <p> Zobene pahuljice, jogurt, mlijeko, bobicasto voce, grozdice, cija i lanene sjemenske.</p>
+                                                            <p> Zobene pahuljice, jogurt, mlijeko, bobicasto voce,
+                                                                grozdice, cija i lanene sjemenske.</p>
                                                             <div class="price">
                                                                 <h6>KM2.80</h6>
                                                             </div>
@@ -337,7 +383,8 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/Domaca_Kokosija_Supa.jpg" alt="">
                                                             <h4>Domaca kokosija supa</h4>
-                                                            <p>Domaca kokosija supa, sa komadicima piletine, korjenastim povrcem i rezancima.</p>
+                                                            <p>Domaca kokosija supa, sa komadicima piletine, korjenastim
+                                                                povrcem i rezancima.</p>
                                                             <div class="price">
                                                                 <h6>KM2.00</h6>
                                                             </div>
@@ -395,7 +442,7 @@
                                         </div>
                                     </div>
                                 </article>
-                              
+
                             </section>
                         </div>
                     </div>
@@ -411,7 +458,7 @@
     <!-- ***** Reservation Us Area Starts ***** -->
     <section class="section" id="reservation">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-lg-6 align-self-center">
                     <div class="left-text-content">
@@ -419,12 +466,15 @@
                             <h6>Kontaktirajte nas</h6>
                             <h2>Ovde možete izvršiti rezervaciju ili jednostavno prošetati do našeg restorana</h2>
                         </div>
-                        <p><p> Akcenat smo stavili na kvalitet sirovina iz kojih nastaju naša prepoznatljiva svježa peciva i smjese mesa za hamburgere koji uz našu tajnu recepturu rezultuju najukusnijim jelima koji će razmaziti vaša nepca.</p>
-                        
+                        <p>
+                            <p> Akcenat smo stavili na kvalitet sirovina iz kojih nastaju naša prepoznatljiva svježa
+                                peciva i smjese mesa za hamburgere koji uz našu tajnu recepturu rezultuju najukusnijim
+                                jelima koji će razmaziti vaša nepca.</p>
+
                     </div>
                 </div>
-                
-                
+
+
             </div>
             <div class="col-lg-12">
                 <div class="row">
@@ -443,10 +493,10 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            
-            
+
+
         </div>
     </section>
     <!-- ***** Reservation Area Ends ***** -->
@@ -456,23 +506,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-xs-12">
-                    
+
                 </div>
                 <div class="col-lg-4">
-                    
+
                     <div class="left-text-content">
                         <div class="right-text-content">
                             <ul class="social-icons">
-                                <li><a href="https://www.facebook.com/fabrika.ukusa.teslic"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/fabrika_ukusa_teslic/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/fabrika.ukusa.teslic"><i
+                                            class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/fabrika_ukusa_teslic/"><i
+                                            class="fa fa-instagram"></i></a></li>
                             </ul>
-                           
-                    </div>
-                       
-                    <p>© Copyright FABRIKA UKUSA 2021 Co. </p>
+
+                        </div>
+
+                        <p>© Copyright FABRIKA UKUSA 2021 Co. </p>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </footer>
@@ -499,21 +551,25 @@
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
     <script>
-
-        $(function() {
+        $(function () {
             var selectedClass = "";
-            $("p").click(function(){
-            selectedClass = $(this).attr("data-rel");
-            $("#portfolio").fadeTo(50, 0.1);
-                $("#portfolio div").not("."+selectedClass).fadeOut();
-            setTimeout(function() {
-              $("."+selectedClass).fadeIn();
-              $("#portfolio").fadeTo(50, 1);
-            }, 500);
+            $("p").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("." + selectedClass).fadeOut();
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn();
+                    $("#portfolio").fadeTo(50, 1);
+                }, 500);
 
             });
         });
-
     </script>
-  </body>
+    <!-- Bootstrap Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
